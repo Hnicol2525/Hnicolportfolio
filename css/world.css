@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-container{
+    background-color: black;
+    background-size: 1000px 1000px;
+}
+h1{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Press Start 2p', system-ui;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 6px;
+    font-size: 4vw;
+    color: greenyellow;
+}
+footer{
+    padding-top: 50%;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Background-container{
+    background-color: #fff;
+    background-image: linear-gradient(55deg, blue, orange, red);
+    background-size: 100% 100%;
+    animation: bgAnimatedGradient 12s infinite linear;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-size: 4vw;
+    color: white;
+}
+h2{
+    text-align: center;
+    padding-top: 0%;
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 2vw;
+    color: white;
+}
+a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+    padding-top: 0%;
+    font-family: 'Gabarito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1vw;
+    color:white;
+}
+footer{
+    padding-top: 100%;
+}
+@keyframes bgAnimatedGradient {
+    0%{
+        background-position: 0 85%;
+    }
+    50%{
+        background-position: 100% 20%;
+    }
+    100%{
+        background-position: 0% 85%;
+    }
+}
